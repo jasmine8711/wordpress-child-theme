@@ -1,0 +1,97 @@
+/*
+Theme Name: jasmine theme
+Theme URI: https://superbthemes.com/superb-landingpage/superb-landingpage-info/
+Author: ThemeEverest
+Author URI: https://superbthemes.com/
+Description: Superb LandingPage is a responsive landing page and one page WordPress theme. 
+Version: 0.0.12
+Tested up to: 5.6
+Requires PHP: 5.0
+License: GNU General Public License v3 or later
+License URI: LICENSE
+Text Domain: twentytwentyonee
+Template: twentytwentyone
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Superb Landingpage is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600&family=Dancing+Script:wght@700&family=Maven+Pro:wght@400;900&family=Oswald:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+body{
+    font-family: 'Assistant', sans-serif;
+}
+#main{
+  padding: 0 !important;
+  background:rgb(238, 238, 238) !important ;
+}
+p{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+h2{
+  font-size: 3rem !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600!important;
+}
+h3{
+  font-family: 'Maven Pro', sans-serif !important;
+  font-size:1.5rem !important;
+}
+.weight-600{
+    font-weight: 600 !important;
+}
+.j-blue {
+    color: #5f9dc4;
+}
+.j-pink{
+   color: #F2AEAE
+}
+.j-purple{
+    color:#5e6bb6;
+}
+.j-red{
+    color:#D95F69;
+}
+a{
+    text-decoration: none !important;
+}
+button{
+    background: none !important;
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.hand-write{
+  font-family: 'WindSong', cursive;
+}
+.animate__animated{
+  opacity: 0;
+} 
+.animate__animated.animate__slideInRight{
+  opacity: 1;
+}
+.animate__animated.animate__slideInUp{
+  opacity: 1;
+} 
+.animate__animated.animate__fadeInUp{
+  opacity: 1;
+}   
+.portfolio-wraper .filter_gallery_187{
+  margin: 0 !important;
+}
+.portfolio-wraper .filter_gallery_255{
+  margin: 0 !important;
+}
+
+

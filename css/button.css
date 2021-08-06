@@ -1,0 +1,24 @@
+/*button*/
+
+.btn-grad {background-image: linear-gradient(to right, #FEAC5E 0%, #C779D0  51%, #FEAC5E  100%)}
+.btn-grad {
+   padding: 0.5rem 2rem;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;  
+   z-index: 9;          
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer;
+
+ }
+ @media (min-width: 360px) and (max-width: 767px){
+  .btn-grad{
+      padding: 0.5rem;
+  }
+} 
