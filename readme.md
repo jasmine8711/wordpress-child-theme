@@ -1,7 +1,7 @@
-#Jasmine-theme
+# Jasmine-theme
 Child theme Design and development by Jasmine and based on theme *Twenty Twenty-One*.
 
-##Plugins
+## Plugins
 1. Advanced Custom Fields
 Create custom field for post type Website.
 
