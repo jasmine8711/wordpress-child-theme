@@ -1,7 +1,7 @@
-# Jasmine-theme
+#Jasmine-theme
 Child theme Design and development by Jasmine and based on theme *Twenty Twenty-One*.
 
-## Plugins
+##Plugins
 1. Advanced Custom Fields
 Create custom field for post type Website.
 
@@ -39,6 +39,7 @@ Contact form
 Because this is a simple page website, I think it is simple to just have a navigation icon on the right corner.
 
 1. logo animation in After effect.
+I first using After Effect to create the logo animation video, then I upload the video to a  CDN. On the website, it is a full screen video background.
 
 1. Page on scroll animation
 I use jQuery and animate.css to give main element on scroll animation.

@@ -66,7 +66,9 @@ background: none !important;
   margin:0;
   height: 100vh;
   overflow: hidden;
-  background-color: #f8f9fa;
+  background: url("https://portfolio.jasminemao.be/wp-content/uploads/2021/08/intro-bbg.jpg");
+  background-position: center center;
+  background-size: cover;
 }
 .intro{
   position: relative;
@@ -79,15 +81,14 @@ background: none !important;
   height: 100vh;
 }
 .intro-content h2{
-  font-size: 36px !important;
+  font-size: 32px !important;
+  line-height: 32px !important;
 }
-.intro-image-bg{
-  width: 100%;
-  position: absolute;
-  z-index: 5;
-  left: 0;
-  top:0;
+.intro-logo{
+  width: 50px;
+  height: 50px;
 }
+
 .intro-j-bg{
   width: 100vw;
   position: absolute; 
@@ -95,6 +96,14 @@ background: none !important;
   left: 0;
   top:0;
 }
+.layer{
+  position: absolute;
+  width: 100%;
+  top:0;
+  right: 0;
+  object-fit: cover;
+}
+
 .underline{
   display: inline-block;
 position: relative;
@@ -173,15 +182,14 @@ h2{
   animation: show 1s 1s ease-in forwards;
 }
 #intro{
-  background: url("https://portfolio.jasminemao.be/wp-content/uploads/2021/08/intro-mobile-bg.jpg");
- background-size: cover;
- background-position: top center;
  min-height: 100vh;
  display: flex;
  flex-direction: column;
  justify-content: flex-end;
 }
-
+.layer{
+height: 100%;
+}
 .intro-content{
   justify-content: flex-end !important;
   padding-bottom: 3rem;
@@ -190,9 +198,7 @@ h2{
   font-size: 20px !important;
   
 }
-.intro-image-bg{
-  display: none;
-}
+
 .intro-j-bg{
   display: none;
 }
@@ -230,11 +236,9 @@ h2{
   .about-bg{
       display: none;
   }
-  #intro{
-    background: url("https://portfolio.jasminemao.be/wp-content/uploads/2021/08/ipad-more-bg.jpg");
-    background-size: cover;
- background-position: top right;
-  }
+.layer{
+  height: 100%;
+}
   .intro h2{
 font-size: 2rem !important;
 line-height: 2.5rem !important;

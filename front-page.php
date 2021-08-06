@@ -24,25 +24,41 @@
   </div>
 <!--   intro -->
 <div id="intro" class="container-fluid position-relative">
-	<img class="intro-image-bg" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/intro-overlay.png" alt="">
+<div class="layer-box">
+			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-02.png" alt="" data-speed="1">
+			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-03.png" alt="" data-speed="3">
+			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-04.png" alt="" data-speed="5">
+			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-06.png" alt="" data-speed="9">
+			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-10.png" alt="" data-speed="-3">
+			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-11.png" alt="" data-speed="-6">
+			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-12.png" alt="" data-speed="2">
+			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-13.png" alt="" data-speed="4">
+			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-14.png" alt="" data-speed="6">
+			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-15.png" alt="" data-speed="-8">
+			</div>
+<!-- 	<img class="intro-image-bg" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/intro-overlay.png" alt=""> -->
 	<img class="intro-j-bg image-slide-up animate__animated" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/j.png" alt="">
 	<div class="container intro">
 		<div class="row ">
-			<div class="col-12 col-lg-6 col-md-8 fade-in animate__animated intro-content">
-				<h2 class="j-red">	I am a Belgium based <br>
-				<span class="animated-text">graphic designer.</span>
-					<br>
-				<span class="j-pink "> I am also a<br>
-				<span class="animated-text">frontend developer</span>  who likes water color drawing.</span>
-					</h2>
-				<p class="text-dark pt-5 pb-5 about-text">In 2014, I moved to Belgium to begin a career as an illustration artist. Before turning my attention to the challenges of the code world, I specialised in digital graphic design. In 2019, I went to <strong>BECODE</strong>  to study web development. From design to coding, I found frontend development is the perfect transition.</p>
-				<a href="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/JasmineMao-online-CV.pdf" class="btn-grad"> Download my CV<i class="fas fa-long-arrow-alt-right"></i></a>
-			
+			<div class="col-12 col-lg-7 col-md-8 fade-in animate__animated intro-content">
+				<div class="blur p-5 w-100">
+					<img class="intro-logo mb-3" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/logo100@2x.png" alt="">
+						<h2 class="j-red">	I am a Belgium based <br>
+						<span class="animated-text">graphic designer.</span>
+							<br>
+							<br>
+						<span class="j-red "> I am also a<br>
+						<span class="animated-text">frontend developer</span>  who likes water color drawing.</span>
+							</h2>
+						<p class="text-light pt-5 pb-5 about-text">In 2014, I moved to Belgium to begin a career as an illustration artist. Before turning my attention to the challenges of the code world, I specialised in digital graphic design. In 2019, I went to <strong>BECODE</strong>  to study web development. From design to coding, I found frontend development is the perfect transition.</p>
+						<a href="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/JasmineMao-online-CV.pdf" class="btn-grad" style="font-size:16px"> Download my CV<i class="fas fa-long-arrow-alt-right"></i></a>
+				</div>
 			</div>
 			<div class="col">
 			
 			</div>
 		</div>
+
 	</div>
 
 
@@ -119,7 +135,7 @@
 										<p class="text-light"><?php the_field('company'); ?></p>
 						    </div>
 			           <!-- back--> </div>
-					   <div class="flip-box-back" data-bg-overlay="" data-text-color="dark" style="background: rgb(255,255,255);height: 500px;">
+					   <div class="flip-box-back" data-text-color="dark" style="background:rgba(255,255,255,0.8);height:500px;border:solid 1px white;box-shadow: 0 4px 16px 0 rgba(107, 106, 109, 0.4)">
 					    <div class="inner p-5">
 							<div class="w-100 mb-3 d-flex justify-content-end"><img class="img-item" src="<?php the_field('logo'); ?>" /></div>
 							<h3 class="j-purple text-uppercase weight-600"><?php the_title(); ?> </h3>
@@ -129,7 +145,7 @@
                             </p>
 							<p class="text-secondary"><span class="weight-600">DELIVERABLES:</span><br><?php the_content(); ?></p>
 							<br>
-							<a class="text-secondary" href="<?php the_field('link'); ?>">View project <i class="fas fa-long-arrow-alt-right"></i></a>	
+							<a class="j-purple view-project-btn" href="<?php the_field('link'); ?>">View project <i class="fas fa-long-arrow-alt-right"></i></a>	
 						</div>	
 		 <!-- back --></div>
 					   <!-- oranger-flip-box --> </div>

@@ -256,3 +256,23 @@ body:not(.using-mobile-browser) .oranges-flip-box[data-flip-direction="vertical-
     perspective: inherit;
     z-index: 2;
 }
+
+/* website */
+.view-project-btn:hover {
+    background-color: #5e6bb6;
+    box-shadow: 0px 15px 20px rgba(107, 106, 109, 0.4);
+    color: #fff !important;
+    transform: translateY(-7px);
+    border-radius: 20px;
+  }
+  .view-project-btn:hover .fas{
+    transform: rotate(-45deg);
+  }
+/* .flip-box-back{
+    background: rgba(255, 255, 255,0.9);
+    box-shadow: 0 4px 16px 0 rgba(107, 106, 109, 0.4);
+    backdrop-filter: blur( 3.0px );
+    -webkit-backdrop-filter: blur( 2.0px );
+    border: 2px solid rgba(255, 255, 255);
+    height: 500px;
+} */
