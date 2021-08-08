@@ -43,15 +43,15 @@
 			<div class="col-12 col-lg-7 col-md-8 fade-in animate__animated intro-content">
 				<div class="blur p-5 w-100">
 					<img class="intro-logo mb-3" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/logo100@2x.png" alt="">
-						<h2 class="j-red">	I am a Belgium based <br>
+						<h2 class="j-red intro-title">	I am a Belgium based <br>
 						<span class="animated-text">graphic designer.</span>
 							<br>
 							<br>
 						<span class="j-red "> I am also a<br>
 						<span class="animated-text">frontend developer</span>  who likes water color drawing.</span>
 							</h2>
-						<p class="text-light pt-5 pb-5 about-text">In 2014, I moved to Belgium to begin a career as an illustration artist. Before turning my attention to the challenges of the code world, I specialised in digital graphic design. In 2019, I went to <strong>BECODE</strong>  to study web development. From design to coding, I found frontend development is the perfect transition.</p>
-						<a href="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/JasmineMao-online-CV.pdf" class="btn-grad" style="font-size:16px"> Download my CV<i class="fas fa-long-arrow-alt-right"></i></a>
+						<p class="text-light about-text">In 2014, I moved to Belgium to begin a career as an illustration artist. Before turning my attention to the challenges of the code world, I specialised in digital graphic design. In 2019, I went to <strong>BECODE</strong>  to study web development. From design to coding, I found frontend development is the perfect transition.</p>
+						<a href="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/JasmineMao-online-CV.pdf" class="btn-grad" style="font-size:16px; position:absolute;bottom:2rem"> Download my CV<i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 			<div class="col">
@@ -116,7 +116,7 @@
 <!-- list of website projects -->
 <div class="container pt-3" id="wordpress">
 	<div class="row mt-5">
-	<h2 class="j-red text-center hand-write w-100 website-title py-3">Website projects</h2>
+	<h2 class="j-red text-center w-100 website-title py-3">Website projects</h2>
 	<?php 
 		    $homepageWebsites= new WP_Query(array(
 				'posts_per_page'=> -1,
@@ -131,7 +131,7 @@
 					<div class="flip-box-front" data-bg-overlay="true" data-text-color="light" 
                     	    style="background: url(<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'thumbnail' ); echo $url ?>) rgba(60,60,60,0.4); background-blend-mode: multiply; min-height: 500px; height: auto; background-size:cover;background-position:center;">
 							<div class="inner text-uppercase">
-										<h2><?php the_title(); ?> </h2>
+										<h2 class="front-title"><?php the_title(); ?> </h2>
 										<p class="text-light"><?php the_field('company'); ?></p>
 						    </div>
 			           <!-- back--> </div>
@@ -191,7 +191,7 @@
 
 					while($query->have_posts()) : $query->the_post();
 				?>
-				<h2 class="j-red text-center hand-write w-100 website-title py-3"> <?php the_title(); ?></h2>
+				<h2 class="j-red text-center w-100 website-title py-3"> <?php the_title(); ?></h2>
 			<?php the_content(); ?>	
 			<?php endwhile;wp_reset_postdata(); ?>
 	</div>

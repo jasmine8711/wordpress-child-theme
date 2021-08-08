@@ -1,4 +1,4 @@
-/*button*/
+/*button and navigation*/
 
 .btn-grad {background-image: linear-gradient(to right, #FEAC5E 0%, #C779D0  51%, #FEAC5E  100%)}
 .btn-grad {
@@ -7,7 +7,7 @@
    transition: 0.5s;
    background-size: 200% auto;
    color: white;  
-   z-index: 9;          
+   z-index: 3;          
  }
 
  .btn-grad:hover {
@@ -46,6 +46,8 @@
   position: relative;
   transition-duration: 0.3s;
   transition-property: transform;
+  font-weight: 200 !important;
+  letter-spacing: 10px !important;
 }
 .float-shadow a:before {
   pointer-events: none;
@@ -63,20 +65,14 @@
 }
 .float-shadow a:hover {
   transform: translateY(-6px);
-  animation-name: hover;
-  animation-duration: 1.5s;
-  animation-delay: 0.3s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
   color:#df7be4 !important;
+  font-weight: 400 !important;
 }
 .float-shadow a:hover:before {
   opacity: 0.4;
   transform: translateY(6px);
   animation-name: hover-shadow;
-  animation-duration: 1.5s;
-  animation-delay: 0.3s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;

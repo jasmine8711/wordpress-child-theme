@@ -1,7 +1,7 @@
-#Jasmine-theme
+# Jasmine-theme
 Child theme Design and development by Jasmine and based on theme *Twenty Twenty-One*.
 
-##Plugins
+## Plugins
 1. Advanced Custom Fields
 Create custom field for post type Website.
 
@@ -28,27 +28,30 @@ Contact form
 
 1. jQuery
 
-1. animate.css
+1. Animate.css
 
 1. Font awesome
 
 1. Google font
 
 ## Hight Feature
-1. Full screen navigation.
+1. Full screen navigation and on hover float shadow animation.
 Because this is a simple page website, I think it is simple to just have a navigation icon on the right corner.
 
 1. logo animation in After effect.
-I first using After Effect to create the logo animation video, then I upload the video to a  CDN. On the website, it is a full screen video background.
+I first using After Effect to create the logo animation video. On the website, it is a full screen video background.
 
 1. Page on scroll animation
 I use jQuery and animate.css to give main element on scroll animation.
 
-1. Button on hover gradient animation.
+1. Background parallax effect on mousemove.
+On the ABOUT ME section, the background image can move following the mouse.
+
+1. Button on hover animation.
 
 1. Heighlight the important content on page scrolling.
 
-1. Frosted Glass Effect in CSS.
+1. Frosted glass effect in CSS.
 
 1. Dynamic website projects list.
 I use flip card for showing more information of the project, and add 3D css animation on the title when you hover on the website project card.
@@ -63,6 +66,7 @@ I use flip card for showing more information of the project, and add 3D css anim
 
 1. Custiomized illustration
  I use photoshop and illustrator to create the illustration on the page.
+
 
 # Summary
 Normally I use Elementor page builder for WordPress website, Wordpress child theme is something new to me. I learned a lot from this process and have a much deeper understand of how WordPress working. 

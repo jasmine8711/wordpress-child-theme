@@ -256,8 +256,22 @@ body:not(.using-mobile-browser) .oranges-flip-box[data-flip-direction="vertical-
     perspective: inherit;
     z-index: 2;
 }
+.front-title{
+    font-weight: 600 o !important;
+    letter-spacing: 0 !important;
+}
+.view-project-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
 
-/* website */
 .view-project-btn:hover {
     background-color: #5e6bb6;
     box-shadow: 0px 15px 20px rgba(107, 106, 109, 0.4);
