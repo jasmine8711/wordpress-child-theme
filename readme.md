@@ -34,7 +34,7 @@ Contact form
 
 1. Google font
 
-## Hight Feature
+## Features
 1. Full screen navigation and on hover float shadow animation.
 Because this is a simple page website, I think it is simple to just have a navigation icon on the right corner.
 

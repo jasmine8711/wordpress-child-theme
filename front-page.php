@@ -2,41 +2,34 @@
    <?php
 	get_header();
    ?>
-<!-- about -->
+<!-- welcome video -->
   <div class="container-fluid d-flex justify-content-center position-relative" id="about"> 
 	  <video autoplay muted id="myVideo" class=""=>
       <source
         src="https://s3.eu-central-1.wasabisys.com/jasmine-static/img/logo/main.mp4"
         type="video/mp4"
-      />
+    />
     </video>
 	<div class="w-50 d-flex justify-content-center align-items-center">
 		<img class="color-name" data-speed="-5" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/jasmine-color-name.png" alt="">
-		 
-		<a href="#intro" class="myname text-center j-red">
-		Let's meet!
-		<br>
-		<i class="fas fa-sort-down j-red"></i>
-		</a>
-
-	</div>
-		
+	</div>		
   </div>
+
 <!--   intro -->
 <div id="intro" class="container-fluid position-relative">
-<div class="layer-box">
-			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-02.png" alt="" data-speed="1">
-			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-03.png" alt="" data-speed="3">
-			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-04.png" alt="" data-speed="5">
-			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-06.png" alt="" data-speed="9">
-			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-10.png" alt="" data-speed="-3">
-			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-11.png" alt="" data-speed="-6">
-			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-12.png" alt="" data-speed="2">
-			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-13.png" alt="" data-speed="4">
-			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-14.png" alt="" data-speed="6">
-			<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-15.png" alt="" data-speed="-8">
-			</div>
-<!-- 	<img class="intro-image-bg" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/intro-overlay.png" alt=""> -->
+	<div class="layer-box">
+		<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-02.png" alt="" data-speed="1">
+		<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-03.png" alt="" data-speed="3">
+		<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-04.png" alt="" data-speed="5">
+		<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-06.png" alt="" data-speed="9">
+		<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-10.png" alt="" data-speed="-3">
+		<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-11.png" alt="" data-speed="-6">
+		<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-12.png" alt="" data-speed="2">
+		<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-13.png" alt="" data-speed="4">
+		<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-14.png" alt="" data-speed="6">
+		<img class="layer" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/about-bg-15.png" alt="" data-speed="-8">
+	</div>
+
 	<img class="intro-j-bg image-slide-up animate__animated" src="https://portfolio.jasminemao.be/wp-content/uploads/2021/08/j.png" alt="">
 	<div class="container intro">
 		<div class="row ">
@@ -55,14 +48,11 @@
 				</div>
 			</div>
 			<div class="col">
-			
 			</div>
 		</div>
-
 	</div>
-
-
 </div>
+
 <!-- 3 main section cards -->
 <div class="container-fluid bg-light p-0 m-0 overflow-hidden d-flex justify-content-center align-items-center" >
 	<div class="row py-5" id="more">
@@ -79,7 +69,6 @@
 					<h3 class="py-3 j-red weight-600"><?php the_title(); ?></h3>
                     <span class="text-dark mt-1 mt-lg-3 card-content-container"><?php the_content();?></span>
 					<?php the_excerpt() ?>
-
 					</div>
 				<?php endwhile;
 			endif;
@@ -89,9 +78,8 @@
 </div>
 
 <!-- wordpress website -->
-	<div class="container-fluid section-part m-0" id="website"> 
-		<div class="container d-flex justify-content-start">
-			
+<div class="container-fluid section-part m-0" id="website"> 
+	<div class="container d-flex justify-content-start">
 		<div class="blur p-5 d-flex flex-column justify-content-center position-relative fade-in animate__animated">
 				<?php
 					$args = array(
@@ -112,17 +100,15 @@
 		</div>
 	</div>
 
-
 <!-- list of website projects -->
 <div class="container pt-3" id="wordpress">
 	<div class="row mt-5">
-	<h2 class="j-red text-center w-100 website-title py-3">Website projects</h2>
-	<?php 
+		<h2 class="j-red text-center w-100 website-title py-3">Website projects</h2>
+		<?php 
 		    $homepageWebsites= new WP_Query(array(
 				'posts_per_page'=> -1,
 				'post_type'=>'website',
 				'order'=> 'ASC',
-		
 			));
 			while($homepageWebsites->have_posts()){
 				$homepageWebsites->the_post();?>
@@ -134,7 +120,7 @@
 										<h2 class="front-title"><?php the_title(); ?> </h2>
 										<p class="text-light"><?php the_field('company'); ?></p>
 						    </div>
-			           <!-- back--> </div>
+		   <!-- back--> </div>
 					   <div class="flip-box-back" data-text-color="dark" style="background:rgba(255,255,255,0.8);height:500px;border:solid 1px white;box-shadow: 0 4px 16px 0 rgba(107, 106, 109, 0.4)">
 					    <div class="inner p-5">
 							<div class="w-100 mb-3 d-flex justify-content-end"><img class="img-item" src="<?php the_field('logo'); ?>" /></div>
@@ -147,17 +133,16 @@
 							<br>
 							<a class="j-purple view-project-btn" href="<?php the_field('link'); ?>">View project <i class="fas fa-long-arrow-alt-right"></i></a>	
 						</div>	
-		 <!-- back --></div>
-					   <!-- oranger-flip-box --> </div>
-				   <!-- col-6 -->   </div>
+		<!-- back --></div>
+	<!-- oranger-flip-box --> </div>
+<!-- col-6 -->   </div>
            <?php } ?> 
 	</div>
 </div>
 
-
 <!-- graphic design-->
 <div class="section-part m-0 container-fluid" id="graphic"> 
-		<div class="container d-flex justify-content-start">
+	<div class="container d-flex justify-content-start">
 		<div class="blur d-flex flex-column justify-content-center p-5 fade-in animate__animated">
 				<?php
 					$args = array(
@@ -175,9 +160,9 @@
 		</a>	
 		<div class="section-image image-slideIn d-none">	<?php the_post_thumbnail(); ?></div>
 				<?php endwhile;wp_reset_postdata(); ?>
-			</div>
 		</div>
 	</div>
+</div>
 
 <!-- 	graphic design gallery -->
 <div class="container-fluid bg-light mt-0 mb-0 pt-5 pb-5" id="graphic-gallery">
@@ -200,7 +185,7 @@
 
 <!-- art-->
 <div class="section-part container-fluid m-0" id="art"> 
-		<div class="container d-flex justify-content-start">
+	<div class="container d-flex justify-content-start">
 		<div class="blur d-flex flex-column justify-content-center p-5 fade-in animate__animated ">
 				<?php
 					$args = array(
@@ -217,10 +202,10 @@
 			<p>Read more <i class="fas fa-long-arrow-alt-right"></i></p>	
 		</a>	
 		<div class="section-image image-slideIn d-none">	<?php the_post_thumbnail(); ?></div>
-				<?php endwhile;wp_reset_postdata(); ?>
-			</div>
+			<?php endwhile;wp_reset_postdata(); ?>
 		</div>
 	</div>
+</div>
 
 <!-- 	art gallery -->
 <div class="container-fluid bg-light mt-0 mb-0 pt-5 pb-5" id="art-gallery">
@@ -297,9 +282,9 @@
 <!-- end container-fluid --></div>
 
 <div class="container-fliud mt-0 mb-0 p-3 " id="contact">
-<h2 class="text-center text-light contact-title mt-5">Contact me</h2>
+	<h2 class="text-center text-light contact-title mt-5">Contact me</h2>
 	<div class="container blur p-3 w-75 mt-5 mb-5 contact-form-container">
-	<?php the_content(); ?>	
+		<?php the_content(); ?>	
 	</div>  
 </div>
     
