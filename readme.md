@@ -68,8 +68,3 @@ I use flip card for showing more information of the project, and add 3D css anim
  I use photoshop and illustrator to create the illustration on the page.
 
 
-# Summary
-Normally I use Elementor page builder for WordPress website, Wordpress child theme is something new to me. I learned a lot from this process and have a much deeper understand of how WordPress working. 
-
-This is not just a interview test project to me, I treat this project as an opportunity to force myself come out of my comfort zone and learning new thing. I am proud of my achievements.
-
